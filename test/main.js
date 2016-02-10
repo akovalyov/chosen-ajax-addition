@@ -98,7 +98,7 @@ describe('chosen.ajaxaddition', function(){
     server.restore();
     clock.restore();
   });
-  
+
   it("should keep the search term if nothing was passed from server", function() {
     var chosen,
       input,
